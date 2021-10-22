@@ -1,0 +1,62 @@
+:root{
+  --primary:#1d5888;
+  --secondary:#ff993b;
+}
+main>.container {
+  padding: 60px 15px 0;
+  margin-bottom: 5rem;
+}
+.sticky-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100% ;
+}
+
+.fas{
+  color:var(--primary)
+}
+
+.btn{
+  color:white;
+  background-color:var(--primary)
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:var(--primary);
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+
+}
+
+.fa-js-square{
+  color:#f0db4f
+}
+
+.fa-css3-alt{
+ color:#264de4
+}
+
+.fa-html5{
+  color: #e34c26
+ }
+
+ .fa-bootstrap{
+  color:#563d7c
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+white-space: pre-wrap;
+word-break: break-all;
+word-wrap: break-word;
+}
+
+.fontP{
+  font-family: 'Philosopher', sans-serif;
+}
+p,div,strong,a,li,.nav-link{
+  font-family: 'PT Sans', sans-serif;
+}
+ 
+
