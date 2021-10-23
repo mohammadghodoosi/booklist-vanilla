@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>PageTitle</title>
+    <title>bookland</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,7 +27,7 @@
     <div class="container-fluid">
         <div class="navbar-brand fontP mx-sm-5 d-flex align-items-center">
             <img src="img/infinityW.png" class='mx-1' height='25px' width='35px'>
-           HUNDO</div>
+           bookland</div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,44 @@
 
     <main class="flex-shrink-0">
        <div class="container">
-         
+        <div class="row">
+        <div id='child'class="col-6 card card-body">
+            <form id="form-book">
+              <div>
+                <label class='label-form' for="title">title</label>
+                <input type="text" class='form-control' id='title'>
+              </div>
+        <br/>
+              <div>
+                <label for="author">author</label>
+                <input type="text" class='form-control' id='author'>
+              </div>
+        <br/>
+              <div>
+                <label for="isbn">isbn</label>
+                <input type="text" class='form-control' id='isbn'>
+              </div>
+        
+              <button class='form-control mt-5 bg-primary'>submit</button>
+            </form>
+          </div>
+
+          <div class="col-6 card card-body table">
+            <table id='booklist'>
+              <thead>
+                <tr>
+                  <th>title</th>
+                  <th>author</th>
+                  <th>isbn</th>
+                  <th></th>
+              </tr>
+              </thead>
+              <tbody id='bookBody'></tbody>
+              
+            </table>
+            </div>
+            </div>
+          </div>
        </div>
     </main>
         <footer class="footer mt-auto py-3 bg-dark sticky-footer">
